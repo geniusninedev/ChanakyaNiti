@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.genius.android.chanakyaniti">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/sri"
+        android:label="Chanakya Neeti"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChanakyaNiti.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChanakyaNiti.AboutChanakya"
+            android:label="About Chanakya"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChanakyaNiti.ChapterEnglish"
+            android:label="Chapter English"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChanakyaNiti.ChapterHindi"
+            android:label="Chapter Hindi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChanakyaNiti.ChanakyaQuotes"
+            android:label="Chanakya Quotes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapters.ChapterOne"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChapterTwo"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChapterThree"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChapterFour"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChapterFive"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChapterSix"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChapterSeven"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChapterEight"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChapterNine"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChapterTen"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChapterEleven"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChapterTwelve"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChapterThirteen"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChapterFourteen"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChapterFifteen"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChaptersSixteen"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".Chapters.ChapterSeventeen"
+            android:label="Chanakya Neeti" />
+        <activity
+            android:name=".HindiChapters.One"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Two"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Three"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Four"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Five"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Five"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Six"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Seven"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Eight"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Nine"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Ten"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Eleven"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Twelve"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Thirteen"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Fourteen"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Fifteen"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Sixteen"
+            android:label="अध्याय" />
+        <activity
+            android:name=".HindiChapters.Seventeen"
+            android:label="अध्याय" />
+        <activity android:name=".ChanakyaNiti.Quotopager" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+    </application>
+
+</manifest>
